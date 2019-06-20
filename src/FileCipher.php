@@ -385,11 +385,11 @@ class FileCipher
                 $fileIn
             ));
         }
-        if (file_exists($fileOut)) {
+        /*if (file_exists($fileOut)) {
             throw new Exception\InvalidArgumentException(sprintf(
                 'The file %s already exists',
                 $fileOut
             ));
-        }
+        }*/
     }
 }
